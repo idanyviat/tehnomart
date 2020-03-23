@@ -1,0 +1,122 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f3f7f9;
+}
+
+.page-header__activeline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 0;
+  background-color: #293449;
+  height: 42px;
+  padding-left: 120px;
+  padding-right: 120px;
+
+  .page-header__activeline--h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background-color: #ee3643;
+    width: 220px;
+    height: 46px;
+    margin-left: 10px;
+    padding-left: 57px;
+    padding-top: 10px;
+    padding-right: 0;
+  }
+
+  .page-header__activeline--search {
+    display: none;
+  }
+}
+
+.page-header__infoblock {
+  display: flex;
+  flex-direction: row;
+  height: 158px;
+
+  .page-header__infoblock--info {
+    text-align: left;
+    color: #ee3643;
+    font-size: 16px;
+    margin-top: 0;
+    width: 320px;
+    padding-left: 53px;
+    padding-right: 50px;
+    padding-top: 48px;
+  }
+  .page-header__infoblock--contact {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+
+    span {
+      color: #ee3643;
+      font-size: 21px;
+      border: 3px solid white;
+      margin-top: 46px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 71px;
+      width: 270px;
+    }
+
+    p {
+      color: #293449;
+      font-size: 14px;
+      margin-top: 7px;
+      padding-left: 10px;
+    }
+  }
+
+  .page-header__infoblock--enter {
+    font-family: "Cuprum", "PTSans", sans-serif;
+    font-size: 21px;
+    width: 120px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 45px;
+    padding-left: 44px;
+  }
+
+  .page-header__infoblock--registration {
+    font-family: "Cuprum", "PTSans", sans-serif;
+    font-size: 21px;
+    width: 150px;
+    height: 45px;
+    padding-left: 22px;
+    margin-top: 45px;
+  }
+}
+
+.page-header__navigation {
+  background-color: #32425c;
+  width: 930px;
+  margin-left: 10px;
+  .page-header__navigation--nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    li {
+      margin-right: 60px;
+    }
+    a {
+      font-size: 17px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+
