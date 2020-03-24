@@ -1,0 +1,111 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 364px;
+  margin-right: 364px;
+}
+
+.cards__items {
+  width: 300px;
+  height: 123px;
+  margin-top: 60px;
+
+  .cards__names {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  .cards__items--fakebutton {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-right: 26px;
+    padding-left: 25px;
+    border-radius: 5px;
+  }
+}
+
+.cards__materials {
+  background-color: #ffbf47;
+  margin-right: 20px;
+  background-image: url("/img/icon-1-png.png");
+  background-repeat: no-repeat;
+  background-position-x: 212px;
+  background-position-y: 32px;
+
+  .cards__names {
+    padding-left: 3px;
+    margin-bottom: 20px;
+  }
+
+  .cards__items--fakebutton {
+    background-color: #e5ac40;
+    margin-left: 24px;
+  }
+}
+
+.cards__tools {
+  margin-right: 18px;
+  background-color: #3bbce3;
+  background-image: url("/img/icon-2.png");
+  background-repeat: no-repeat;
+  background-position-x: 198px;
+  background-position-y: 32px;
+
+  .cards__names {
+    margin-bottom: 20px;
+  }
+
+  .cards__items--fakebutton {
+    background-color: #35a9cc;
+    padding-right: 30px;
+    margin-left: 25px;
+  }
+}
+
+.cards__tehnic {
+  background-color: #dc91d8;
+  background-image: url("/img/icon-3.png");
+  background-repeat: no-repeat;
+  background-position-x: 194px;
+  background-position-y: 32px;
+
+  .cards__names {
+    margin-left: 23px;
+    margin-bottom: 19px;
+  }
+  .cards__items--fakebutton {
+    background-color: #c682c2;
+    margin-left: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.cards__diskounts {
+  background-color: #8ed78f;
+  .cards__items--fakebutton {
+    background-color: #80c180;
+  }
+}
+
+.cards__delivery {
+  background-color: #ffc047;
+  .cards__items--fakebutton {
+    background-color: #e5ac40;
+  }
+}
+
+.cards__names {
+  font-size: 21px;
+  line-height: 30px;
+  color: white;
+  font-family: "CuprumBold", "PTSansBold", sans-serif;
+}

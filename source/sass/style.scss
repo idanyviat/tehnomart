@@ -36,8 +36,36 @@ html {
 }
 
 @font-face {
+  font-family: "CuprumItalic";
+  src: url(".../fonts/cuprumitalic.woff2") format("woff2"), url(".../fonts/cuprumitalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CuprumBoldItalic";
+  src: url(".../fonts/cuprumbolditalic.woff2") format("woff2"), url(".../fonts/cuprumbolditalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
   font-family: "Cuprum";
   src: url("../fonts/cuprum.woff2") format("woff2"), url("../fonts/cuprum.woff") format("woff");
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url(".../fonts/ptsans.woff2") format("woff2"), url(".../fonts/ptsans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSansBold";
+  src: url(".../fonts/ptsansbold.woff2") format("woff2"), url(".../fonts/ptsansbold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }

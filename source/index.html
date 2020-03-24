@@ -12,9 +12,10 @@
     <div class="page-header page-header__activeline">
       <h1 class="page-header__activeline page-header__activeline--h1">Техномарт</h1>
       <input class="page-header__activeline page-header__activeline--search" type="search"><label>Поиск</label></input>
-      <p>Закладки:<span>0</span></p>
-      <p>Корзина:<span>0</span></p>
-      <a href="#">Оформить заказ</a>
+      <p class="page-header__activeline page-header__activeline--bookmarker">Закладки:<span id="bookmarker">0</span>
+      </p>
+      <p class="page-header__activeline page-header__activeline--basket">Корзина:<span id="basket">0</span></p>
+      <a class="page-header__activeline page-header__activeline--order" href="#">Оформить заказ</a>
     </div>
     <div class="container">
       <div class="page-header__infoblock">
@@ -40,33 +41,34 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main class="container">
     <section class="cards">
-      <div class="cards__items">
-        <p>Материалы</p>
-        <img src="">
+      <div class="cards__items cards__materials">
+        <p class="cards__names">Материалы</p>
         <a class="cards__items cards__items--fakebutton" ref="#">На любой вкус</a>
       </div>
-      <div class="cards__items">
-        <p>Инструмент</p>
-        <img src="">
+      <div class="cards__items cards__tools">
+        <p class="cards__names">Инструмент</p>
         <a class="cards__items cards__items--fakebutton" href="#">На все случаи</a>
       </div>
-      <div class="cards__items">
-        <p>Техника</p>
-        <img src="">
+      <div class="cards__items cards__tehnic">
+        <p class="cards__names">Техника</p>
         <a class="cards__items cards__items--fakebutton" href="#">Для стройки</a>
       </div>
-      <div>
+      <div class="slider-container">
+        <div class="slider">
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+        <div class="slider__next"><span class="slider__next slider__next--point"></span></div>
+        <div class="slider__back"><span class="slider__back slider__back--point"></span></div>
       </div>
-      <div class="cards__items">
-        <p>Скидки 50%</p>
-        <img src="">
+      <div class="cards__items cards__diskounts">
+        <p class="cards__names">Скидки 50%</p>
         <a class="cards__items cards__items--fakebutton" href="#">На 350 товаров</a>
       </div>
-      <div class="cards__items">
-        <p>Доставка</p>
-        <img src="">
+      <div class="cards__items cards__delivery">
+        <p class="cards__names">Доставка</p>
         <a class="cards__items cards__items--fakebutton" href="#">Доставка</a>
       </div>
     </section>

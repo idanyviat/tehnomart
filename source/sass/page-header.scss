@@ -4,6 +4,11 @@
   flex-wrap: wrap;
   background-color: #f3f7f9;
 }
+.page-header__line {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #293449;
+}
 
 .page-header__activeline {
   display: flex;
@@ -24,7 +29,7 @@
     background-color: #ee3643;
     width: 220px;
     height: 46px;
-    margin-left: 10px;
+    margin-left: 362px;
     padding-left: 57px;
     padding-top: 10px;
     padding-right: 0;
@@ -32,6 +37,37 @@
 
   .page-header__activeline--search {
     display: none;
+  }
+
+  label {
+    color: white;
+    font-size: 17px;
+  }
+
+  .page-header__activeline--bookmarker {
+    color: white;
+    font-size: 17px;
+    width: 250px;
+    padding-right: 0;
+    padding-top: 11px;
+  }
+
+  .page-header__activeline--basket {
+    color: white;
+    font-size: 17px;
+    width: 250px;
+    padding-top: 11px;
+  }
+  .page-header__activeline--order {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #63a63e;
+    width: 150px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
   }
 }
 
@@ -41,9 +77,12 @@
   height: 158px;
 
   .page-header__infoblock--info {
+    font-family: "CuprumItalic", "PTSans", serif;
+    font-style: italic;
     text-align: left;
     color: #ee3643;
     font-size: 16px;
+    line-height: 23px;
     margin-top: 0;
     width: 320px;
     padding-left: 53px;
@@ -55,7 +94,6 @@
     flex-direction: column;
     width: 300px;
     padding-right: 10px;
-    margin-left: 10px;
     margin-right: 40px;
 
     span {
@@ -99,8 +137,8 @@
 
 .page-header__navigation {
   background-color: #32425c;
-  width: 930px;
-  margin-left: 10px;
+  width: 940px;
+  margin-bottom: 60px;
   .page-header__navigation--nav {
     display: flex;
     flex-direction: row;
@@ -109,7 +147,10 @@
     padding-bottom: 20px;
     margin-top: 0;
     li {
-      margin-right: 60px;
+      margin-right: 61px;
+    }
+    li:nth-child(1) {
+      margin-left: 12px;
     }
     a {
       font-size: 17px;
@@ -118,5 +159,3 @@
     }
   }
 }
-
-
