@@ -34,3 +34,17 @@
     border-radius: 5px;
   }
 }
+
+.items__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  li {
+    width: 220px;
+  .items__cards--name {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}
