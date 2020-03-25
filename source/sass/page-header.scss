@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   background-color: #f3f7f9;
 }
+
 .page-header__line {
   margin-left: 0;
   margin-right: 0;
@@ -17,8 +18,6 @@
   margin-top: 0;
   background-color: #293449;
   height: 42px;
-  padding-left: 120px;
-  padding-right: 120px;
 
   .page-header__activeline--h1 {
     font-size: 24px;
@@ -58,6 +57,7 @@
     width: 250px;
     padding-top: 11px;
   }
+
   .page-header__activeline--order {
     font-size: 17px;
     color: white;
@@ -89,6 +89,7 @@
     padding-right: 50px;
     padding-top: 48px;
   }
+
   .page-header__infoblock--contact {
     display: flex;
     flex-direction: column;
@@ -139,6 +140,7 @@
   background-color: #32425c;
   width: 940px;
   margin-bottom: 60px;
+
   .page-header__navigation--nav {
     display: flex;
     flex-direction: row;
@@ -146,12 +148,15 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 0;
+
     li {
       margin-right: 61px;
     }
+
     li:nth-child(1) {
       margin-left: 12px;
     }
+
     a {
       font-size: 17px;
       color: white;

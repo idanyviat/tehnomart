@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 364px;
-  margin-right: 364px;
 }
 
 .cards__items {
@@ -81,6 +79,7 @@
     margin-left: 23px;
     margin-bottom: 19px;
   }
+
   .cards__items--fakebutton {
     background-color: #c682c2;
     margin-left: 25px;
@@ -91,6 +90,7 @@
 
 .cards__diskounts {
   background-color: #8ed78f;
+
   .cards__items--fakebutton {
     background-color: #80c180;
   }
@@ -98,6 +98,7 @@
 
 .cards__delivery {
   background-color: #ffc047;
+
   .cards__items--fakebutton {
     background-color: #e5ac40;
   }

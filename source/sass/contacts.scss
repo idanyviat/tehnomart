@@ -1,0 +1,14 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.contacts__info {
+  display: flex;
+  flex-direction: column;
+
+  .contacts__info--name {
+    flex-basis: 100%;
+  }
+}
