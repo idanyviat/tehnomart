@@ -38,13 +38,147 @@
 .items__cards {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   list-style-type: none;
+  padding-left: 0;
+
   li {
     width: 220px;
+    border: 1px solid #eaeaea;
+  }
+
+  :nth-child(1) {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    img {
+      margin-left: 0;
+    }
+  }
+
+  :nth-child(2) {
+    margin-right: 10px;
+
+    img {
+      margin-left: 0;
+    }
+  }
+
+  :nth-child(3) {
+    margin-right: 10px;
+
+    img {
+      margin-left: 0;
+    }
+  }
+
+  :nth-child(4) {
+    margin-right: 10px;
+
+    img {
+      margin-left: 0;
+    }
+
+    .items__cards--button {
+      margin-top: 55px;
+    }
+  }
+
   .items__cards--name {
-      font-size: 18px;
-      font-weight: 700;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 50px;
+    flex-basis: 100%;
+    margin-bottom: 5px;
+  }
+
+  .items__cards--mark {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 80px;
+    margin-bottom: 18px;
+    flex-basis: 100%;
+  }
+
+  .items__cards--price {
+    padding-left: 80px;
+    font-size: 17px;
+    font-family: "PTSansBold", "Arial", sans-serif;
+    text-decoration: line-through;
+    color: #bbbbbb;
+  }
+
+  .items__cards--button {
+    font-size: 17px;
+    font-family: "PTSansBold", "Arial", sans-serif;
+    text-decoration: none;
+    background-color: #ee3643;
+    color: white;
+    width: 120px;
+    height: 38px;
+    padding-left: 30px;
+    padding-top: 8px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+.items__company {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 68px;
+
+  li {
+    display: flex;
+    width: 220px;
+    height: 145px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  :nth-child(1) {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+  }
+
+  :nth-child(2) {
+    margin-right: 10px;
+    padding-left: 20px;
+  }
+
+  :nth-child(3) {
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  :nth-child(4) {
+    img {
+      padding-left: 0;
+    }
+  }
+
+  :nth-child(5) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  :nth-child(6) {
+    margin-right: 10px;
+    padding-left: 20px;
+  }
+
+  :nth-child(7) {
+    margin-right: 10px;
+  }
+
+  :nth-child(8) {
+    img {
+      padding-left: 0;
     }
   }
 }

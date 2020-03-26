@@ -41,8 +41,8 @@
       </nav>
     </div>
   </header>
-  <main class="container">
-    <section class="cards">
+  <main>
+    <section class="cards container">
       <div class="cards__items cards__materials">
         <p class="cards__names">Материалы</p>
         <a class="cards__items cards__items--fakebutton" ref="#">На любой вкус</a>
@@ -72,62 +72,70 @@
         <a class="cards__items cards__items--fakebutton" href="#">Доставка</a>
       </div>
     </section>
-    <section class="items">
+    <section class="items container">
       <div class="items__header">
         <p>Популярные товары:</p>
         <button class="items__header items__header--button">Все популярные товары</button>
       </div>
       <ul class="items__cards">
         <li>
-          <img src="img/Perforator_1.png">
-          <p class="item__cards item__cards--name">Перфоратор BOSH BFG 9000</p>
-          <p class="item__cards item__cards--price">32500 Р.</p>
-          <a class="items__cards items__card--button" href="#">25500 P.</a>
+          <img src="/img/Perforator_1.png">
+          <p class="items__cards items__cards--name">Перфоратор BOSH</p>
+          <span class="item__cards items__cards--mark">BFG 9000</span>
+          <p class="items__cards items__cards--price">32500 Р.</p>
+          <a class="items__cards items__cards--button" href="#">25500 P.</a>
         </li>
         <li>
-          <img src="img/Perforator_2.png">
-          <p class="item__cards item__cards--name">Перфоратор BOSH BFG 3000</p>
-          <p class="item__cards item__cards--price">22500 P.</p>
-          <a class="items__cards items__card--button" href="#">15500 P.</a>
+          <img src="/img/Perforator_2.png">
+          <p class="items__cards items__cards--name">Перфоратор BOSH</p>
+          <span class="item__cards items__cards--mark">BFG 3000</span>
+          <p class="items__cards items__cards--price">22500 P.</p>
+          <a class="items__cards items__cards--button" href="#">15500 P.</a>
         </li>
         <li>
-          <img src="img/Perforator_3.png">
-          <p class="item__cards item__cards--name">Перфоратор BOSH BFG 6000</p>
-          <p class="item__cards item__cards--price">30500 P.</p>
-          <a class="items__cards items__card--button" href="#">25500 P.</a>
+          <img src="/img/Perforator_3.png">
+          <p class="items__cards items__cards--name">Перфоратор BOSH</p>
+          <span class="item__cards items__cards--mark">BFG 6000</span>
+          <p class="items__cards items__cards--price">30500 P.</p>
+          <a class="items__cards items__cards--button" href="#">25500 P.</a>
         </li>
         <li>
-          <img src="img/Perforator_4.png">
-          <p class="item__cards item__cards--name">Перфоратор BOSH BFG 2000</p>
-          <a class="items__cards items__card--button" href="#">12500 P.</a>
+          <img src="/img/Perforator_4.png">
+          <p class="items__cards items__cards--name">Перфоратор BOSH</p>
+          <span class="item__cards items__cards--mark">BFG 2000</span>
+          <a class="items__cards items__cards--button" href="#">12500 P.</a>
         </li>
       </ul>
     </section>
-    <section class="items">
+    <section class="items container">
       <div class="items__header">
         <p>Популярные производители:</p>
         <button class="items__header items__header--button">Все производители</button>
       </div>
       <ul class="items__company">
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
+        <li><img src="/img/bosch.png" alt="BOSH"></li>
+        <li><img src="/img/Makita.png" alt="Makita"></li>
+        <li><img src="/img/DeWALT.png" alt="DeWALT"></li>
+        <li><img src="/img/interscol.png" alt="Интерскол"></li>
+        <li><img src="/img/Hitachi.png" alt="Hitachi"></li>
+        <li><img src="/img/LG.png" alt="LG"></li>
+        <li><img src="/img/AEG.png" alt="AEG"></li>
+        <li><img src="/img/Metabo.png" alt="Metabo"></li>
       </ul>
     </section>
     <section class="services">
       <div class="services__info">
-        <h2 class="services__info services__info--name">Сервесы</h2>
+        <h2 class="services__info services__info--name">Сервисы</h2>
         <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
         <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       </div>
-      <div class="services__delivery">
-        <div>
-          <span class="services__delivery services__delivery--independ">Доставка</span>
+      <div class="services__container">
+        <div class="services__block">
+          <span class="services__block services__block--delivery">Доставка</span>
+          <span class="services__block  services__block--garanty">Гарантия</span>
+          <span class="services__block services__block--credit">Кредит</span>
+        </div>
+        <div class="services__delivery">
           <h3 class="services__delivery services__delivery--name">Доставка</h3>
           <p class="services__delivery services__delivery--text">Мы с удовольствием доставим ваш товар прямо
             к вашему подъезду совершенно бесплатно!
@@ -135,8 +143,7 @@
             поднимая его на ваш этаж!</p>
           <img class="services__delivery services__delivery--image" src="" alt="Доставка">
         </div>
-        <div class="services__garanty">
-          <span class="services__garanty services__garanty--independ">Гарантия</span>
+        <div class="services__garanty hidden">
           <h3 class="services__garanty services__garanty--name">Гарантия</h3>
           <p class="services__garanty services__garanty--text">Если купленный у нас товар поломается или заискрит,
             а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии.
@@ -144,8 +151,7 @@
             Дом уж восстановите как-нибудь сами.</p>
           <img class="services__garanty services__garanty--image" src="" alt="Гарантия">
         </div>
-        <div class="services__credit">
-          <span class="services__credit services__credit--independ">Кредит</span>
+        <div class="services__credit hidden">
           <h3 class="services__credit services__credit--name">Кредит</h3>
           <p class="services__credit services__credit--text">Залезть в долговую яму стало проще!
             Кредитные консультанты придут вам на помощь.</p>

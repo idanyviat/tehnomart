@@ -1,0 +1,70 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f5f8fa;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+.services__info {
+  flex-basis: 100%;
+
+  .services__info--name {
+    font-family: "Cuprum", "Arial", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+
+  p {
+    font-family: "PTSans", "Arial", sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+}
+
+.services__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.services__block {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin-left: 10px;
+  height: 63px;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "CuprumBold", "Arial", sans-serif;
+  text-align: center;
+
+  .services__block--delivery {
+    background-color: white;
+    color: #32425c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .services__block--garanty,
+  .services__block--credit {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #32425c;
+    color: white;
+    border-top: 1px solid #405069;
+    border-bottom: 1px solid #293449;
+  }
+}
+
+.services__delivery {
+  margin-left: 60px;
+
+  .services__delivery--name {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "CuprumBold", "Arial", sans-serif;
+  }
+}
