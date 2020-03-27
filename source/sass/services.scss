@@ -58,13 +58,35 @@
   }
 }
 
-.services__delivery {
+.services__delivery,
+.services__garanty,
+.services__credit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin-left: 60px;
 
-  .services__delivery--name {
+  .services__delivery--name,
+  .services__garanty--name,
+  .services__credit--name {
     margin-top: 0;
     font-size: 36px;
     font-weight: 700;
     font-family: "CuprumBold", "Arial", sans-serif;
+  }
+
+  .services__delivery--text,
+  .services__garanty--text,
+  .services__credit--text {
+    width: 300px;
+  }
+
+  .services__delivery--image,
+  .services__garanty--image,
+  .services__credit--image {
+    align-self: flex-end;
+    position: relative;
+    left: 243px;
+    top: -200px;
   }
 }

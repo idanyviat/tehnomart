@@ -10,5 +10,30 @@
 
   .contacts__info--name {
     flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .contacts__info--text {
+    font-size: 13px;
+
+    :nth-child(4),
+    :nth-child(5),
+    :nth-child(6) {
+      font-size: 18px;
+    }
+  }
+
+  .contacts__info--button {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-top: 15px;
+    width: 220px;
+    height: 38px;
+    background-color: #ee3643;
+    color: white;
   }
 }
