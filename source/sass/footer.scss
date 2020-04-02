@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 80px;
+  background-color: #293449;
+  padding-left: 290px;
+  padding-right: 290px;
+}
+
+.footer__company {
+  display: flex;
+  width: 450px;
+
+  p {
+    color: white;
+  }
+}
+
+.footer__develop {
+  display: flex;
+  color: white;
+
+  span {
+    color: #e4be7b;
+  }
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  .footer__socila--vk {
+    width: 50px;
+    padding: 20px 0 20px 10px;
+  }
+
+  .footer__socila--fb {
+    width: 50px;
+    padding: 20px 0 20px 10px;
+  }
+
+  .footer__socila--in {
+    width: 50px;
+    padding: 20px 0 20px 10px;
+    margin-right: 40px;
+  }
+}

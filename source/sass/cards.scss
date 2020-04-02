@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 500px;
 }
 
 .cards__items {
@@ -90,6 +91,12 @@
 
 .cards__diskounts {
   background-color: #8ed78f;
+  background-image: url("../img/icon-4.png");
+  background-repeat: no-repeat;
+  background-position-x: 194px;
+  background-position-y: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
 
   .cards__items--fakebutton {
     background-color: #80c180;
@@ -98,6 +105,14 @@
 
 .cards__delivery {
   background-color: #ffc047;
+  background-image: url("../img/icon-5.png");
+  background-repeat: no-repeat;
+  background-position-x: 194px;
+  background-position-y: 30px;
+  margin-top: 20px;
+  position: relative;
+  top: -140px;
+  left: 640px;
 
   .cards__items--fakebutton {
     background-color: #e5ac40;

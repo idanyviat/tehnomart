@@ -79,6 +79,7 @@
   .services__garanty--text,
   .services__credit--text {
     width: 300px;
+    z-index: 3;
   }
 
   .services__delivery--image,
@@ -86,7 +87,10 @@
   .services__credit--image {
     align-self: flex-end;
     position: relative;
-    left: 243px;
+
+    left: 169px;
     top: -200px;
+    width: 400px;
+    z-index: 2;
   }
 }

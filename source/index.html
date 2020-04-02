@@ -55,13 +55,20 @@
         <p class="cards__names">Техника</p>
         <a class="cards__items cards__items--fakebutton" href="#">Для стройки</a>
       </div>
-      <div class="slider-container">
-        <div class="slider">
-          <img src="img/slider-1.png" alt="Слайдер первое фото">
-          <img src="img/slider-2.png" alt="Слайдер второе фото">
+      <div class="slider">
+        <div class="slider__wrapper">
+          <div class="slider__item">
+            <img src="img/slider-1.png" alt="Слайдер первое фото">
+          </div>
+          <div class="slider__item">
+            <img src="img/slider-2.png" alt="Слайдер второе фото">
+          </div>
         </div>
-        <div class="slider__next"><span class="slider__next slider__next--point"></span></div>
-        <div class="slider__back"><span class="slider__back slider__back--point"></span></div>
+        <a class="slider__control slider__control_left" href="#" role="button"><span
+            class="slider__next slider__next--point"></span></a>
+        <a class="slider__control slider__control_right slider__control_show" href="#" role="button"><span
+            class="slider__back slider__back--point"></span></a>
+        <a class="slider__button" href="catalog.html">Открыть каталог</a>
       </div>
       <div class="cards__items cards__diskounts">
         <p class="cards__names">Скидки 50%</p>
@@ -124,39 +131,42 @@
       </ul>
     </section>
     <section class="services">
-      <div class="services__info">
-        <h2 class="services__info services__info--name">Сервисы</h2>
-        <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
-        <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-      </div>
-      <div class="services__container">
-        <div class="services__block">
-          <span class="services__block services__block--delivery">Доставка</span>
-          <span class="services__block  services__block--garanty">Гарантия</span>
-          <span class="services__block services__block--credit">Кредит</span>
+      <div class="container">
+        <div class="services__info">
+          <h2 class="services__info services__info--name">Сервисы</h2>
+          <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
+          <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </div>
-        <div class="services__delivery">
-          <h3 class="services__delivery services__delivery--name">Доставка</h3>
-          <p class="services__delivery services__delivery--text">Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно!
-            Ведь мы неплохо заработаем,
-            поднимая его на ваш этаж!</p>
-          <img class="services__delivery services__delivery--image" src="./img/delivery.png" alt="Доставка">
-        </div>
-        <div class="services__garanty hidden">
-          <h3 class="services__garanty services__garanty--name">Гарантия</h3>
-          <p class="services__garanty services__garanty--text">Если купленный у нас товар поломается или заискрит,
-            а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии.
-            Мы обменяем сгоревший товар на новый.
-            Дом уж восстановите как-нибудь сами.</p>
-          <img class="services__garanty services__garanty--image" src="./img/garanty.png" alt="Гарантия">
-        </div>
-        <div class="services__credit hidden">
-          <h3 class="services__credit services__credit--name">Кредит</h3>
-          <p class="services__credit services__credit--text">Залезть в долговую яму стало проще!
-            Кредитные консультанты придут вам на помощь.</p>
-          <img class="services__credit services__credit--image" src="./img/credit.png" alt="Кредит">
-          <a class="services__credit services__credit--button" href="#">Отправить заявку</a>
+        <div class="services__container">
+          <div class="services__block">
+            <span class="services__block services__block--delivery">Доставка</span>
+            <span class="services__block  services__block--garanty">Гарантия</span>
+            <span class="services__block services__block--credit">Кредит</span>
+          </div>
+          <div class="services__delivery">
+            <h3 class="services__delivery services__delivery--name">Доставка</h3>
+            <p class="services__delivery services__delivery--text">Мы с удовольствием доставим ваш товар прямо
+              к вашему подъезду совершенно бесплатно!
+              Ведь мы неплохо заработаем,
+              поднимая его на ваш этаж!</p>
+            <img class="services__delivery services__delivery--image" src="./img/delivery.png" alt="Доставка">
+          </div>
+          <div class="services__garanty hidden">
+            <h3 class="services__garanty services__garanty--name">Гарантия</h3>
+            <p class="services__garanty services__garanty--text">Если купленный у нас товар поломается или заискрит,
+              а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей
+              гарантии.
+              Мы обменяем сгоревший товар на новый.
+              Дом уж восстановите как-нибудь сами.</p>
+            <img class="services__garanty services__garanty--image" src="./img/garanty.png" alt="Гарантия">
+          </div>
+          <div class="services__credit hidden">
+            <h3 class="services__credit services__credit--name">Кредит</h3>
+            <p class="services__credit services__credit--text">Залезть в долговую яму стало проще!
+              Кредитные консультанты придут вам на помощь.</p>
+            <img class="services__credit services__credit--image" src="./img/credit.png" alt="Кредит">
+            <a class="services__credit services__credit--button" href="#">Отправить заявку</a>
+          </div>
         </div>
       </div>
       <img src="" alt="">
@@ -190,11 +200,11 @@
       <nav class="footer-navigation__line container">
         <p class="footer-navigation__logo">Техномарт</p>
         <ul class="footer-navigation__panel">
-          <li>Компания</li>
-          <li>Новости</li>
-          <li>Каталог</li>
-          <li>Доставка</li>
-          <li>Контакты</li>
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="footer-navigation__secondpanel container">
@@ -204,30 +214,29 @@
         </div>
         <div class="footer-navigation__secondpanel footer-navigation__secondpanel--product">
           <ul>
-            <li>Материалы</li>
-            <li>Техника</li>
-            <li>Инструмент</li>
-            <li>Спецпредложения</li>
+            <li><a href="#">Материалы</a></li>
+            <li><a href="#">Техника</a></li>
+            <li><a href="#">Инструмент</a></li>
+            <li><a href="#">Спецпредложения</a></li>
           </ul>
         </div>
     </section>
     <section class="footer">
-      <div class="container">
         <div class="footer__company">
-          <p>© 2010–2019 Компания «Техномарт» Все права защищены</p>
+          <p>© 2010–2019 Компания «Техномарт» <br>Все права защищены</p>
         </div>
         <div class="footer__social">
-          <img src="" alt="VK">
-          <img src="" alt="Facebook">
-          <img src="" alt="Instagram">
+          <a href="#"><img class="footer__social footer__socila--vk" src="./img/vk-icon.png" alt="VK"></a>
+          <a href="#"><img class="footer__social footer__socila--fb" src="./img/fb-icon.png" alt="Facebook"></a>
+          <a href="#"><img class="footer__social footer__socila--in" src="./img/insta-icon.png" alt="Instagram"></a>
         </div>
         <div class="footer__develop">
-          <p>Обратная связь: mail@htmlacademy.ru</p>
-          <p>Разработано — htmlacademy.ru</p>
+          <p>Обратная связь: <span>mail@htmlacademy.ru</span></p>
+          <p>Разработано — <span>htmlacademy.ru</span></p>
         </div>
-      </div>
     </section>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 
