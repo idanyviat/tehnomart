@@ -33,6 +33,11 @@
   li {
     padding-left: 60px;
   }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .footer-navigation__secondpanel {
@@ -48,6 +53,10 @@
 
       li {
         margin-left: 60px;
+      }
+
+      a {
+        text-decoration: none;
         color: #e4be7b;
       }
     }
